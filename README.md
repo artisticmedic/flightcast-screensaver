@@ -13,15 +13,6 @@ A premium macOS screensaver for the Flightcast team. Features a subtle grid of F
 5. Select **Flightcast Logo Shimmer** — macOS will show a security warning asking to delete the file. **Click "Keep File"**
 6. Go to **System Settings → Privacy & Security**, scroll down to the warning about "Flightcast Logo Shimmer", and click **Open Anyway**. Confirm the system prompt
 7. Go back to **Screen Saver** settings. Select a different screensaver first and click **Preview** (this resets the cache), then re-select **Flightcast Logo Shimmer**
-
-### Shortcut: skip the security dance
-
-If you're comfortable with Terminal, run this before step 3 to bypass the Gatekeeper prompts entirely:
-
-```bash
-xattr -cr ~/Downloads/Flightcast\ Logo\ Shimmer.saver
-```
-
 ## Uninstall
 
 Go to `~/Library/Screen Savers/` and delete `Flightcast Logo Shimmer.saver`.
