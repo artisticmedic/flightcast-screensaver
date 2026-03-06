@@ -10,7 +10,7 @@ A premium macOS screensaver for the Flightcast team. Features a subtle grid of F
 2. Unzip it
 3. Double-click **Flightcast Logo Shimmer.saver**
 4. macOS will ask if you want to install — click **Install**
-5. Go to **System Settings → Screen Saver** and select **Flightcast Logo Shimmer**
+5. Go to **System Settings → Wallpaper → Screen Saver** and select **Flightcast Logo Shimmer**
 
 ## Uninstall
 
