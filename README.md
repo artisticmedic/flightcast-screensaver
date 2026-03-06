@@ -2,8 +2,6 @@
 
 A premium macOS screensaver for the Flightcast team. Features a subtle grid of Flightcast logo marks with animated purple shimmer lights that pass through the icon strokes — like light catching engraved metal.
 
-![Flightcast Logo Shimmer](preview.png)
-
 ## Install
 
 1. Download **[Flightcast Logo Shimmer.zip](https://github.com/doac-stuff/flightcast-screensaver/releases/latest/download/Flightcast.Logo.Shimmer.zip)** from [Releases](https://github.com/doac-stuff/flightcast-screensaver/releases)
