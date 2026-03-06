@@ -8,20 +8,19 @@ A premium macOS screensaver for the Flightcast team. Features a subtle grid of F
 
 1. Download **[Flightcast Logo Shimmer.zip](https://github.com/artisticmedic/flightcast-screensaver/releases/latest/download/Flightcast.Logo.Shimmer.zip)** from [Releases](https://github.com/artisticmedic/flightcast-screensaver/releases)
 2. Unzip it
-3. **Remove the macOS quarantine flag** (recommended). Open Terminal and run:
-   ```bash
-   xattr -cr ~/Downloads/Flightcast\ Logo\ Shimmer.saver
-   ```
-4. Double-click **Flightcast Logo Shimmer.saver** and click **Install**
-5. Go to **System Settings → Wallpaper → Screen Saver** and select **Flightcast Logo Shimmer**
+3. Double-click **Flightcast Logo Shimmer.saver** to install it
+4. Open **System Settings → Wallpaper → Screen Saver**, scroll to the bottom of the list, and click **See More**
+5. Select **Flightcast Logo Shimmer** — macOS will show a security warning asking to delete the file. **Click "Keep File"**
+6. Go to **System Settings → Privacy & Security**, scroll down to the warning about "Flightcast Logo Shimmer", and click **Open Anyway**. Confirm the system prompt
+7. Go back to **Screen Saver** settings. Select a different screensaver first and click **Preview** (this resets the cache), then re-select **Flightcast Logo Shimmer**
 
-### Troubleshooting: "unidentified developer" warning
+### Shortcut: skip the security dance
 
-Since this isn't signed with an Apple Developer certificate, macOS may block the install. Three ways to fix this:
+If you're comfortable with Terminal, run this before step 3 to bypass the Gatekeeper prompts entirely:
 
-1. **Terminal (recommended):** Run `xattr -cr ~/Downloads/Flightcast\ Logo\ Shimmer.saver` before installing — this strips the quarantine flag.
-2. **Right-click → Open:** Instead of double-clicking, right-click the `.saver` file and choose **Open**. A security dialog will appear — click **Open** to proceed.
-3. **System Settings:** After a blocked install attempt, go to **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to the blocked file.
+```bash
+xattr -cr ~/Downloads/Flightcast\ Logo\ Shimmer.saver
+```
 
 ## Uninstall
 
