@@ -6,11 +6,22 @@ A premium macOS screensaver for the Flightcast team. Features a subtle grid of F
 
 ## Install
 
-1. Download **[Flightcast Logo Shimmer.zip](https://github.com/doac-stuff/flightcast-screensaver/releases/latest/download/Flightcast.Logo.Shimmer.zip)** from [Releases](https://github.com/doac-stuff/flightcast-screensaver/releases)
+1. Download **[Flightcast Logo Shimmer.zip](https://github.com/artisticmedic/flightcast-screensaver/releases/latest/download/Flightcast.Logo.Shimmer.zip)** from [Releases](https://github.com/artisticmedic/flightcast-screensaver/releases)
 2. Unzip it
-3. Double-click **Flightcast Logo Shimmer.saver**
-4. macOS will ask if you want to install — click **Install**
+3. **Remove the macOS quarantine flag** (recommended). Open Terminal and run:
+   ```bash
+   xattr -cr ~/Downloads/Flightcast\ Logo\ Shimmer.saver
+   ```
+4. Double-click **Flightcast Logo Shimmer.saver** and click **Install**
 5. Go to **System Settings → Wallpaper → Screen Saver** and select **Flightcast Logo Shimmer**
+
+### Troubleshooting: "unidentified developer" warning
+
+Since this isn't signed with an Apple Developer certificate, macOS may block the install. Three ways to fix this:
+
+1. **Terminal (recommended):** Run `xattr -cr ~/Downloads/Flightcast\ Logo\ Shimmer.saver` before installing — this strips the quarantine flag.
+2. **Right-click → Open:** Instead of double-clicking, right-click the `.saver` file and choose **Open**. A security dialog will appear — click **Open** to proceed.
+3. **System Settings:** After a blocked install attempt, go to **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to the blocked file.
 
 ## Uninstall
 
